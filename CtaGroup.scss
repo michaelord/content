@@ -1,0 +1,14 @@
+.cta-group {
+	$parent: &;
+
+	&__inner {
+		display: inline-flex;
+	}
+
+	> * {
+	}
+
+	&--center {
+		text-align: center;
+	}
+}

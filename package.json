@@ -1,19 +1,21 @@
 {
-  "name": "content",
-  "private": true,
-  "description": "...",
-  "version": "0.1.0",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/michaelord/content.git"
-  },
-  "devDependencies": {},
-  "author": "michaelord",
-  "keywords": [],
-  "dependencies": {
-    "components/editable": "http://github.com/michaelord/editable.git",
-    "components/types": "http://github.com/michaelord/types.git",
-    "components/libs": "http://github.com/michaelord/libs.git"
-  }
+	"name": "content",
+	"private": true,
+	"description": "...",
+	"version": "0.1.0",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/michaelord/content.git"
+	},
+	"devDependencies": {},
+	"author": "michaelord",
+	"keywords": [],
+	"dependencies": {
+		"components/content": "http://github.com/michaelord/content.git",
+		"components/editable": "http://github.com/michaelord/editable.git",
+		"components/libs": "http://github.com/michaelord/libs.git",
+		"components/types": "http://github.com/michaelord/types.git",
+		"components/layout": "http://github.com/michaelord/layout.git"
+	}
 }

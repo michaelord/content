@@ -1,0 +1,22 @@
+.intro-block {
+	margin-bottom: var(--space-md);
+
+	&__main {
+		display: flex;
+
+		flex-wrap: wrap;
+
+		justify-content: space-between;
+	}
+
+	&__title {
+		flex-basis: calc(50% - 0.01px - var(--grid-gap, 1em));
+		max-width: calc(50% - 0.01px - var(--grid-gap, 1em));
+	}
+
+	&__content {
+		flex-basis: calc(41.66% - 0.01px - var(--grid-gap, 1em));
+
+		max-width: calc(41.66% - 0.01px - var(--grid-gap, 1em));
+	}
+}

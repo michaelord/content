@@ -19,7 +19,7 @@
 
 		#{$parent}__media {
 			@media screen and (min-width: 786px) {
-				margin-right: var(--gutter);
+				margin-right: var(--grid-gap);
 			}
 		}
 
@@ -31,9 +31,15 @@
 			#{$parent}__media {
 				@media screen and (min-width: 786px) {
 					margin-right: 0;
-					margin-left: var(--gutter);
+					margin-left: var(--grid-gap);
 				}
 			}
+		}
+	}
+
+	&--xs {
+		#{$parent}__media {
+			flex: 0 0 100px;
 		}
 	}
 

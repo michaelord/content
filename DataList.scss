@@ -1,0 +1,35 @@
+.data-list {
+	$parent: &;
+
+	border: 1px solid red;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	&-item {
+		flex-basis: 48%;
+		border: 1px solid green;
+
+		&__header {
+			display: flex;
+			align-items: center;
+			margin-bottom: var(--space-sm);
+
+			h3 {
+				margin: 0;
+			}
+		}
+
+		&__icon {
+			width: 30px;
+			height: 30px;
+			text-align: center;
+			line-height: 30px;
+			margin-right: var(--space-sm);
+			border-radius: 50%;
+			background-color: var(--color-primary);
+			color: #fff;
+		}
+	}
+}
